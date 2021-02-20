@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" dir="rtl">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4 Starter Pack</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg fixed-top">
+        <div class="container text-center">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand " href="#">
+                <img src="images/unilogo-1.png" width="50" height="50">
+                <div class="d-inline align-middle"><span class="dropdown-self" >دانشگاه محقق اردبیلی</span></div>
+                  <!-- <br><div class="d-inline align-middle text-primary"> Of Mohaghegh Ardabili</div> -->
+                  
+              </a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link links-color" href="#"><span class="dropdown-self" >خانه</span></a>
+                  </li>
+                  <li class=" dropdown mr-3">
+                    <a class="nav-link dropdown-toggle text-warning" href="#" id="CategoryDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="dropdown-self" >دسته بندی موضوعی</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="CategoryDropdown1">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li class=" dropdown mr-3">
+                    <a class="nav-link dropdown-toggle text-warning" href="#" id="CategoryDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="dropdown-self" >جدیدترین دوره ها</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="CategoryDropdown2">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li class="nav-item mr-3">
+                      <a class="nav-link" href="#"><span class="dropdown-self" >محیط کاربری</span></a>
+                  </li>
+                  <li class="nav-item mr-3">
+                      <a class="nav-link" href="#"><span class="dropdown-self" >سوالات متداول</span></a>
+                  </li>
+                  <!-- <li class=" dropdown mr-3">
+                    <a class="nav-link dropdown-toggle text-info border-nav shadow-sm" href="#" id="CategoryDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="" >نیلوفر زبردست</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="CategoryDropdown2">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li> -->
+
+                  <li class="nav-item mr-3">
+                      <button type="button" data-target="#Login" data-toggle="modal" class="shadow-sm nav-link btn btn-sign btn-outline-warning btn-block text-warning px-3">ورود</button>
+                  </li>
+                  <li class="nav-item mr-1">
+                    <button type="button" data-target="#Signin" data-toggle="modal" class="shadow-sm nav-link btn btn-sign btn-outline-info btn-block text-info px-3">عضویت</button>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+
+<!-- where are you and search -->
+<div class="container mt-4 text-right margin-nav">
+    <div class="row">
+        <div class="col-sm col-12 pt-2">
+            <span class="text-info">صفحه اصلی</span>
+            <span class="text-warning">></span>
+            <span class="text-info">دوره های مهندسی کامپیوتر</span>
+        </div>
+        <div class="col-sm-4 col-11 mr-sm-auto mr-3 mt-sm-0 mt-3 shadow" id="Searchbox2">
+                <form action="">
+                    <div class="text-right text bg-white">
+                        <div class="search-bg search-box1">
+                            <img src="images/search.png" alt="" width="20" class="search-log">
+                            <input id="Search-word" type="text" class="search-bg2 text-warning border-0 height text-right" placeholder="جستجو">
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- description -->
+<section id="SingleCourse">
+<div  class="container bg-white mt-4 shadow">
+    <div class="row">
+        <div class="col-sm-4 col-12 p-0 border shadow-sm">
+            <div class="p-0">
+                <img src="images/illustration.png" alt="" width="100%">
+            </div>
+            <div class="text-center  p-0 pb-4 ">
+                <img src="images/010-teaching-1.png" alt="" width="25%" class="rounded-circle mt-4 bg-light">
+                <p class="mt-3 color">
+                    مدرس <span class="text-warning">:</span> نیلوفر زبردست 
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-8 col-12 pt-5">
+            <div class="container">
+                <div class="row">
+                  <div class="pr-5 ml-auto color">
+                      <h5>دوره آموزش طراحی رابط کاربری</h5>
+                  </div>
+                  <div class="opacity pl-lg-5 d-none d-lg-inline">
+                    <a href="#"><img src="images/telegram@2x.png" alt="" width="13%"></a>
+                    <a href="#"><img src="images/instagram (1)@2x.png" alt="" width="13%" class="mr-2"></a>
+                  </div>
+                </div>
+                <div class="text-right pr-4 mt-3">
+                    <p class="color-purpule mb-4">
+                            <img src="images/Group 1436@2x.png" alt="" width="5%">&nbsp;&nbsp;&nbsp;
+                         تاریخ برگزاری <span class="text-warning">:</span> 98/7/19
+                         
+                    </p>
+                    <p class="color-purpule mb-3">
+                        <img src="images/009-timing.png" alt="" width="5%">&nbsp;&nbsp;&nbsp;
+                            طول دوره <span class="text-warning">:</span> 15ساعت
+                    </p>
+                    <p class="color-purpule mb-3">
+                        <img src="images/008-university.png" alt="" width="5%">&nbsp;&nbsp;&nbsp;
+                            مکان برگزاری <span class="text-warning">:</span> دانشکده مهندسی کامپیوتر
+                            
+                    </p>
+                    <p class="color-purpule mb-3">
+                        <img src="images/026-scholarship@2x.png" alt="" width="5%">&nbsp;&nbsp;&nbsp;
+                            هزینه دوره <span class="text-warning">:</span> 200000 تومان
+                            
+                    </p>
+                    <div class="text-sm-left text-center my-4 pl-2">
+                    <a href="" class="btn px-5 round shadow-sm">ثبت نام</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bg-white mt-3 shadow">
+    <div class="container text-right pt-5 px-5 color">
+        توضیحات <span class="text-warning">:</span>
+        <p class="text-dark px-1 py-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quae corrupti consequatur esse ipsum? Laudantium nihil, distinctio quae non ipsam illo voluptatem nostrum omnis eos tempore. Quae asperiores aliquam quam nulla expedita sint debitis delectus ratione? Eaque ducimus nobis quidem porro, eveniet deleniti vitae, natus laborum blanditiis odit hic tempore laudantium non. Rem, facere ex debitis laboriosam explicabo in dolor inventore quam nihil architecto pariatur neque, praesentium voluptates natus aspernatur, incidunt nesciunt eos. Inventore corporis fuga ipsam voluptas, placeat in cumque aspernatur labore mollitia voluptate quia tempora nulla asperiores fugit quaerat totam modi rerum sit est? Possimus veniam placeat illum?
+        </p>
+        پیش نیازها <span class="text-warning">:</span>
+        <div class="text-dark py-3">
+            <span class="text-warning"><img src="images/034-potential@2x.png" alt="" width="2%"></span> مقدمه ای بر فیزیک پلاسما
+            <br>
+            <span class="text-warning"><img src="images/034-potential@2x.png" alt="" width="2%"></span> مقدمه ای بر فیزیک پلاسما 
+        </div>
+        سرفصل ها <span class="text-warning">:</span>
+        <ol class="text-dark pr-4 py-3 pb-5">
+            <li class="text-warning pr-0"><span class="text-dark"> مقدمه ای بر فیزیک پلاسما </span></li>
+            <li class="text-warning"><span class="text-dark"> مقدمه ای بر فیزیک پلاسما </span></li class="text-warning">
+        </ol>
+    </div>
+</div>
+<div class="container bg-white mt-3 shadow">
+    <div class="container text-right pt-5 px-5 color">
+        درباره مدرس <span class="text-warning">:</span>
+        <p class="text-dark py-3 pb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores unde aut sequi, harum doloremque quae expedita accusantium. Eos at inventore deserunt nobis, magni sapiente! Eos mollitia quae vitae facilis, aliquid quisquam maxime alias tenetur explicabo eum itaque obcaecati. Dolorem doloremque fugit voluptate, ipsum aliquid quos explicabo? Deleniti reiciendis quis ea. Veritatis quibusdam dolores eligendi delectus voluptas temporibus quod aperiam quos pariatur facilis, laborum recusandae nemo reprehenderit deleniti exercitationem ratione impedit, similique accusantium reiciendis quaerat. Voluptatem laborum aliquam illum inventore excepturi laudantium rem autem culpa cum quaerat aperiam eum ratione nulla delectus pariatur velit sed error, maiores quos debitis? Excepturi!
+        </p>
+</div>
+</div>
+</section>
+
+<!-- suggest courses -->
+<section id="SuggestCourses" class="mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <div class="info-header my-5 main-text">
+                  <h5>دوره های مرتبط</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+            <div id="carouselApa" class="carousel slide" data-ride="no" >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="15000" data-pause="pause">
+                  <div class="container">
+                    <div class="row ">
+                      <div class="col-lg-3 col-md-6">
+                          <div class="card shadow">
+                              <img src="images/903378_f32d_5.png" class="card-img-top" alt="...">
+                              <div class="card-body text-right main-text">
+                                <h5 class="card-title">دوره تخصصی امنیت شبکه</h5>
+                                <p class="card-text">
+                                  مدرس <span class="text-warning">:</span>لیلا صدوقی
+                                  <br>
+                                  هزینه <span class="text-warning">:</span> 200000 تومان
+                                  <br>
+                                  تاریخ برگزاری <span class="text-warning">:</span> 98/7/14
+                                </p>
+                                  <div class="flex-row d-flex justify-content-end">
+                                    <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                    <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                    <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="card shadow">
+                              <img src="images/1713894_9b86.png" class="card-img-top" alt="...">
+                              <div class="card-body text-right main-text">
+                                <h5 class="card-title">دوره تخصصی امنیت شبکه</h5>
+                                <p class="card-text">
+                                  مدرس <span class="text-warning">:</span>لیلا صدوقی
+                                  <br>
+                                  هزینه <span class="text-warning">:</span> 200000 تومان
+                                  <br>
+                                  تاریخ برگزاری <span class="text-warning">:</span> 98/8/03
+                                </p>
+                                  <div class="flex-row d-flex justify-content-end">
+                                    <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                    <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                    <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="card shadow">
+                              <img src="images/people-sitting-around-campfire-having-rest_82574-10202.png" class="card-img-top" alt="...">
+                              <div class="card-body text-right main-text">
+                                <h5 class="card-title">دوره تخصصی امنیت شبکه</h5>
+                                <p class="card-text">
+                                  مدرس <span class="text-warning">:</span>لیلا صدوقی
+                                  <br>
+                                  هزینه <span class="text-warning">:</span> 200000 تومان
+                                  <br>
+                                  تاریخ برگزاری <span class="text-warning">:</span> 98/7/19
+                                </p>
+                                  <div class="flex-row d-flex justify-content-end">
+                                    <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                    <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                    <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <div class="card shadow">
+                              <img src="images/1227834_9d2f_5.png" class="card-img-top" alt="...">
+                              <div class="card-body text-right main-text">
+                                <h5 class="card-title">دوره تخصصی امنیت شبکه</h5>
+                                <p class="card-text">
+                                  مدرس <span class="text-warning">:</span>لیلا صدوقی
+                                  <br>
+                                  هزینه <span class="text-warning">:</span> 200000 تومان
+                                  <br>
+                                  تاریخ برگزاری <span class="text-warning">:</span> 98/8/15
+                                </p>
+                                  <div class="flex-row d-flex justify-content-end">
+                                    <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                    <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                    <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item " data-interval="15000" data-pause="pause">
+                    <div class="container">
+                      <div class="row ">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card shadow">
+                                <img src="images/1879510_a10e_5.png" class="card-img-top" alt="...">
+                                <div class="card-body text-right main-text">
+                                  <h5 class="card-title">دوره یادگیری ماشین</h5>
+                                  <p class="card-text">
+                                    مدرس <span class="text-warning">:</span>احسان علی اکبرزاده
+                                    <br>
+                                    هزینه <span class="text-warning">:</span> 10000 تومان
+                                    <br>
+                                    تاریخ برگزاری <span class="text-warning">:</span> 98/8/15
+                                  </p>
+                                    <div class="flex-row d-flex justify-content-end">
+                                      <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                      <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                      <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card shadow">
+                                <img src="images/593074_ff12_4.png" class="card-img-top" alt="...">
+                                <div class="card-body text-right main-text">
+                                  <h5 class="card-title">دوره آموزش روانشناسی موفقیت</h5>
+                                  <p class="card-text">
+                                    مدرس <span class="text-warning">:</span>الهام دبیر
+                                    <br>
+                                    هزینه <span class="text-warning">:</span> 10000 تومان
+                                    <br>
+                                    تاریخ برگزاری <span class="text-warning">:</span> 98/8/03
+                                  </p>
+                                    <div class="flex-row d-flex justify-content-end">
+                                      <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                      <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                      <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card shadow">
+                                <img src="images/1144936_1aef_3.png" class="card-img-top" alt="...">
+                                <div class="card-body text-right main-text">
+                                  <h5 class="card-title">دوره آموزش مقدماتی زبان پایتون</h5>
+                                  <p class="card-text">
+                                    مدرس <span class="text-warning">:</span>وحید رحیمی
+                                    <br>
+                                    هزینه <span class="text-warning">:</span> 10000 تومان
+                                    <br>
+                                    تاریخ برگزاری <span class="text-warning">:</span> 98/7/19
+                                  </p>
+                                    <div class="flex-row d-flex justify-content-end">
+                                      <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                      <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                      <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card shadow">
+                                <img src="images/1979760_d5fe_3.png" class="card-img-top" alt="...">
+                                <div class="card-body text-right main-text">
+                                  <h5 class="card-title">دوره آموزش طراحی رابط کاربری</h5>
+                                  <p class="card-text">
+                                    مدرس <span class="text-warning">:</span>نیلوفر زبردست
+                                    <br>
+                                    هزینه <span class="text-warning">:</span> 10000 تومان
+                                    <br>
+                                    تاریخ برگزاری <span class="text-warning">:</span> 98/8/15
+                                  </p>
+                                    <div class="flex-row d-flex justify-content-end">
+                                      <a href="#" class="btn btn-warning card-btn shadow-sm">جزئیات بیشتر</a>
+                                      <a href="#" class="btn btn-info card-btn mr-1 shadow-sm">ثبت نام</a>
+                                      <a href="" class="mr-auto"><img src="images/heart.png" alt="" class="mr-auto" width="70%"></a>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              <a class="carousel-control-prev set-width-left" href="#carouselApa" data-slide="prev">
+                
+                <img src="images/next (1).png" alt="" class="border border-warning bg-white rounded-circle">
+              </a>
+              <a class="carousel-control-next set-width-right" href="#carouselApa" data-slide="next">
+                  <img src="images/next (-1.png" alt="" class="border border-warning bg-white rounded-circle">
+              </a>
+            </div>
+        </div>
+</section>
+    
+
+<!-- footer  -->
+<footer id="Footer">
+    <div class="mt-5">
+        <div class="container">
+          <div class="row text-right text-white pt-5">
+            <div class="col-lg-5 ">
+              <div class="row "> 
+                <a href="#" class="row">
+                  <img src="images/unilogo-3.png" alt="" width="">
+                  <div class="pt-4 pr-3">
+                      <h5>دانشگاه محقق اردبیلی</h5>
+                      <span>University Of Mohaghehg Ardabili</span>
+                  </div>
+                </a>
+              </div>
+              <div class="pt-4">
+                  <p>سامانه برگزاری دوره های تخصصی <br>دانشگاه محقق اردبیلی</p>
+                  <p>برای اطلاع از زمان برگزاری دوره ها ایمیل خود را وارد کنید</p>
+              </div>
+                <form action="" class="row mt-5">
+                  <div class="col-8 ml-1 email-box py-2">
+                    <input type="text" placeholder="ایمیل خود را وارد کنید" class="border-0 text-info width80">
+                  </div>
+                  <div class="col-3 submit-email">
+                      <input type="submit" value="ثبت ایمیل" class="btn submit-email">
+                  </div>
+                  </form>
+                  <div class="row mt-5">
+                    <div class="col-1 mr-2">
+                      <a href="#"><img src="images/telegram@2x.png" alt="" width="35"></a>
+                    </div>
+                    <div class="col-1 mr-2">
+                      <a href="#"><img src="images/Apara@2x.png" alt="" width="35"></a>
+                    </div>
+                    <div class="col-1 mr-2">
+                      <a href="#"><img src="images/linkedin@2x.png" alt="" width="35"></a>
+                    </div>
+                    <div class="col-1 mr-2">
+                      <a href="#"><img src="images/instagram (1)@2x.png" alt="" width="35"></a>
+                    </div>
+                    <div class="col-1 mr-2">
+                      <a href="#"><img src="images/Soroush@2x.png" alt="" width="35"></a>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                  </div>
+            </div>
+            <div class="col-lg d-none d-lg-block">
+              <h5>پیوندها</h5><br>
+              <p><a href="#">وب سایت دانشگاه محقق اردبیلی <<</a></p>
+              <p><a href="#">مرکز آپا دانشگاه <<</a></p>
+              <p><a href="#">واحدها و مراکز پژوهی <<</a></p>
+              <p><a href="#">مرکز رشد واحدهای فناوری <<</a></p>
+              <p><a href="#">مرکز سلامت و تندرستی <<</a></p>
+              <p><a href="#">انجمن نانو فناوری استان اردبیل <<</a></p>
+              <p><a href="#">مرکز مشاوره کارآفرینی دانشگاه <<</a></p>
+              <p><a href="#">کانون صنفی استادان دانشگاهی ایران <<</a></p>
+          </div>
+            <div class="col-lg d-none d-lg-block">
+              <h5>پیوندها</h5><br>
+              <p><a href="#">سامانه ملی کارآموزی <<</a></p>
+              <p><a href="#">بنیاد حامیان دانشگاه محقق اردبیلی <<</a></p>
+              <p><a href="#">فدراسیون سرآمدان ایران <<</a></p>
+              <p><a href="#">فراخوانی پژوهشی سازمان ها <<</a></p>
+              <div class="row justify-content-center pt-4">
+                <img src="images/enamad.png" alt="" width="30%">
+                <img src="images/logo (1).png" alt="" width="30%">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class=" footer-copy">
+    <div class="container mt-5">
+      <div class="row text-center">
+        <div class="col text-white">
+            کلیه حقوق این سایت متعلق به دانشگاه محقق اردبیلی می باشد
+        </div>
+      </div>
+      </div>
+    </div>
+</footer>
+
+<!-- Modal sign in -->
+<div class="modal fade text-dark text-right container" id="Signin" tabindex="-1" role="dialog" aria-labelledby="SigninLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded1 px-3">
+        <div class="modal-header border-0">
+          <div class="col text-center">
+            <h5 class="modal-title text" id="SigninLabel">ثبت نام</h5>
+          </div>
+          <div>
+            <button type="button" class="bg-white py-0 pb-1 btn text shadow rounded-circle close1" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+        <div class="modal-body border-0">
+            <form>
+                <div class="form-group">
+                    <label for="Signin-name" class="mr-5">نام کاربری</label>
+                    <input type="text" class="form-control shadow-sm height" id="Signin-name">
+                </div>
+                <div class="form-group">
+                  <label for="Signin-email" class="mr-5">آدرس ایمیل</label>
+                  <input type="email" class="form-control shadow-sm height" id="Signin-email">
+                </div>
+                <div class="form-group">
+                  <label for="Signin-pass" class="mr-5">رمز عبور</label>
+                  <input type="password" class="form-control shadow-sm height" id="Signin-pass">
+                </div>
+                <div class="form-group mt-4">
+                  <button type="submit" class="btn text-white btn-block shadow-sm height">
+                    ثبت نام
+                  </button>
+                </div>
+                <div class="textlogin text-center mx-auto">
+                  اگر حساب کاربری دارید وارد شوید
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer mb-4 text-center">
+          <button type="button" class="btn text bg-white login btn-block shadow-sm height" data-target="#Login" data-toggle="modal" data-dismiss="modal">ورود</button>
+        </div>
+      </div>
+    </div>
+</div>
+  
+  
+<!-- modal login -->
+<div class="modal fade text-dark text-right container" id="Login" tabindex="-1" role="dialog" aria-labelledby="SigninLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded1 px-3">
+        <div class="modal-header border-0">
+          <button type="button" class="bg-white pt-0 pb-5 btn text shadow rounded-circle close1" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="col text-center">
+            <h5 class="modal-title text" id="SigninLabel">ورود به حساب کاربری</h5>
+          </div>
+        </div>
+        <div class="modal-body border-0">
+            <form>
+                <div class="form-group">
+                  <label for="Login-email" class="mr-5">آدرس ایمیل</label>
+                  <input type="email" class="form-control shadow-sm height" id="Login-email">
+                </div>
+                <div class="form-group">
+                  <label for="Login-pass" class="mr-5">رمز عبور</label>
+                  <input type="password" class="form-control shadow-sm height" id="Login-pass">
+                </div>
+                <div class="form-group row">
+                  <div class="form-check mr-4 pt-1">
+                      <input class="form-check-input bg-white" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                  </div>
+                  <div class="text1 ml-auto">مرا به خاطر بسپار</div>
+                  <div><a href="#" class="text1 ml-4">رمزعبور را فراموش کردم</a></div>
+                </div>
+                <div class="form-group mt-2">
+                  <button type="submit" class="btn text-white btn-block height shadow-sm">
+                    ورود
+                  </button>
+                </div>
+                <div class="textlogin text-center mx-auto">
+                  اگر حساب کاربری ندارید ثبت نام کنید
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer mb-4 text-center">
+          <button type="button" class="btn text bg-white height login btn-block shadow-sm" data-target="#Signin" data-toggle="modal" data-dismiss="modal">ثبت نام</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,698 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.color-purpule {
+  color: #311967; }
+
+@media (min-width: 1201px) {
+  #CategoryHeader .category {
+    width: 277px; }
+  #Signin .textlogin {
+    right: 113px;
+    top: 277px;
+    width: 50%; }
+  #Login .textlogin {
+    right: 105px;
+    top: 249px;
+    width: 54%; }
+  .hover-img {
+    height: 129px;
+    padding-top: 60px; }
+  .hidden-detail {
+    top: 129px;
+    height: 135px; }
+  .cardimg {
+    height: 129px; }
+  .cardtxt {
+    height: 135px; } }
+
+@media (max-width: 1200px) {
+  #CategoryHeader .category {
+    width: 225px; }
+  #Signin .textlogin {
+    right: 113px;
+    top: 277px;
+    width: 50%; }
+  #Login .textlogin {
+    right: 105px;
+    top: 249px;
+    width: 54%; }
+  .hover-img {
+    height: 106px;
+    padding-top: 40px; }
+  .hidden-detail {
+    top: 106px;
+    height: 150px; }
+  .cardimg {
+    height: 106px; }
+  .cardtxt {
+    height: 150px; } }
+
+@media (max-width: 991px) {
+  #CategoryHeader .category {
+    width: 160px; }
+  .hover-img {
+    height: 165px;
+    padding-top: 77px; }
+  .hidden-detail {
+    top: 165px;
+    height: 135px; }
+  .cardimg {
+    height: 165px; }
+  .cardtxt {
+    height: 135px; } }
+
+@media (max-width: 767px) {
+  #CategoryHeader .category {
+    width: 215px; }
+  .hover-img {
+    height: 117px;
+    padding-top: 50px; }
+  .hidden-detail {
+    top: 117px;
+    height: 137px; }
+  .cardimg {
+    height: 117px; }
+  .cardtxt {
+    height: 137px;
+    padding-bottom: 0; } }
+
+@media (max-width: 575px) {
+  #Signin .textlogin {
+    right: 93px;
+    top: 277px;
+    width: 56%; }
+  #Login .textlogin {
+    right: 45px;
+    top: 254px;
+    width: 73%; }
+  #CategoryHeader .category {
+    width: 215px; }
+  .hover-img {
+    height: 270px;
+    padding-top: 130px; }
+  .hidden-detail {
+    top: 270px;
+    height: 135px; }
+  .cardimg {
+    height: 270px; }
+  .cardtxt {
+    height: 135px; } }
+
+@media (width: 411px) {
+  #Login .textlogin {
+    right: 45px;
+    top: 250px;
+    width: 73%; }
+  #Signin .textlogin {
+    right: 49px;
+    top: 277px;
+    width: 70%; } }
+
+@media (width: 360px) {
+  #Login .textlogin {
+    right: 15px;
+    top: 272px;
+    width: 88%; }
+  #Signin .textlogin {
+    right: 31px;
+    top: 278px;
+    width: 78%; } }
+
+@media (width: 320px) {
+  #Login .textlogin {
+    right: 9px;
+    top: 272px;
+    width: 92%; }
+  #Signin .textlogin {
+    right: 14px;
+    top: 278px;
+    width: 87%; } }
+
+@media (width: 414px) {
+  #Login .textlogin {
+    right: 44px;
+    top: 249px;
+    width: 72%; }
+  #Signin .textlogin {
+    right: 48px;
+    top: 278px;
+    width: 69%; } }
+
+@media (width: 375px) {
+  #Login .textlogin {
+    right: 25px;
+    top: 271px;
+    width: 82%; }
+  #Signin .textlogin {
+    right: 34px;
+    top: 278px;
+    width: 76%; } }
+
+@media (width: 320px) and (height: 568px) {
+  .navbar-brand {
+    font-size: 18px !important; } }
+
+.hover-visible {
+  position: relative; }
+  .hover-visible:hover .hidden-detail {
+    opacity: 1;
+    visibility: visible; }
+  .hover-visible:hover .hover-img {
+    opacity: .7;
+    visibility: visible; }
+
+.hover-img {
+  visibility: hidden;
+  position: absolute;
+  background: black;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.hidden-detail {
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s; }
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important; }
+
+.card {
+  direction: rtl; }
+
+#Profile .rounded {
+  border-radius: 30px !important; }
+
+#Profile .color {
+  color: #34ADAE; }
+
+#Profile a {
+  text-decoration: none;
+  color: #311967; }
+
+#Profile .clom {
+  background: url(../images/Group1406@2x.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 63px 0; }
+
+#MyCourses .color {
+  color: #311967; }
+
+#MyCourses .color-purpule {
+  color: #311967; }
+
+#SingleCourse .color {
+  color: #34ADAE; }
+
+#SingleCourse .opacity {
+  opacity: 0.6; }
+
+#SingleCourse .color-purpule {
+  color: #311967; }
+
+#SingleCourse .round {
+  border-radius: 20px;
+  background: #34ADAE;
+  color: white; }
+
+#InRollCourse .color {
+  color: #34ADAE; }
+
+#InRollCourse .opacity {
+  opacity: 0.6; }
+
+#InRollCourse .color-purpule {
+  color: #311967; }
+
+#InRollCourse .round {
+  background: #34ADAE;
+  color: white; }
+
+#InRollCourse #Coursesubmit .logo {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  width: 5%; }
+
+#InRollCourse #Coursesubmit button {
+  height: 55px;
+  border-radius: 50px; }
+
+#InRollCourse #Coursesubmit input {
+  position: relative;
+  border: 1px solid #999;
+  border-radius: 10px;
+  height: 55px;
+  padding-right: 40px;
+  color: #311967; }
+
+#InRollCourse #Coursesubmit input::placeholder {
+  color: #311967;
+  text-align: right; }
+
+#Signin .container {
+  position: relative; }
+
+#Signin .rounded1 {
+  border-radius: 30px; }
+
+#Signin .text {
+  color: #34ADAE; }
+
+#Signin .modal-footer {
+  border-top: 2px solid #FCA70C;
+  padding-top: 30px;
+  margin-top: 10px; }
+
+#Signin .close1 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 35px;
+  z-index: 2; }
+
+#Signin .textlogin {
+  position: absolute;
+  color: #311967;
+  background: white; }
+
+#Signin .login {
+  border: 2px solid #FCA70C;
+  border-radius: 30px; }
+
+#Signin a {
+  text-decoration: none; }
+
+#Signin input {
+  border: 2px solid #FCA70C;
+  border-radius: 30px;
+  color: #311967; }
+
+#Signin button {
+  background: #34ADAE;
+  border-radius: 30px; }
+
+#Signin .form-group {
+  position: relative; }
+
+#Signin label {
+  position: absolute;
+  top: -13px;
+  background: white;
+  color: #311967; }
+
+#Signin .height {
+  height: 45px; }
+
+#Login .container {
+  position: relative; }
+
+#Login .rounded1 {
+  border-radius: 30px; }
+
+#Login .text {
+  color: #34ADAE; }
+
+#Login .text1 {
+  color: #311967; }
+
+#Login .modal-footer {
+  border-top: 2px solid #FCA70C;
+  padding-top: 30px;
+  margin-top: 10px; }
+
+#Login .close1 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 35px;
+  z-index: 2; }
+
+#Login .textlogin {
+  position: absolute;
+  color: #311967;
+  background: white; }
+
+#Login .login {
+  border: 2px solid #FCA70C;
+  border-radius: 30px; }
+
+#Login a {
+  text-decoration: none; }
+
+#Login input {
+  border: 2px solid #FCA70C;
+  border-radius: 30px;
+  color: #311967; }
+
+#Login button {
+  background: #34ADAE;
+  border-radius: 30px;
+  height: 45px; }
+
+#Login .form-group {
+  position: relative; }
+
+#Login label {
+  position: absolute;
+  top: -13px;
+  background: white;
+  color: #311967; }
+
+#Login .height {
+  height: 45px; }
+
+body {
+  background-color: #F5F5F5;
+  direction: rtl; }
+
+.info-header {
+  max-width: 160px;
+  margin: auto;
+  border-bottom: #34ADAE solid 2px; }
+
+.main-text {
+  color: #311967; }
+
+.navbar {
+  border-bottom: 1px solid #ccc; }
+  .navbar .btn-sign {
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    min-width: 90px; }
+    .navbar .btn-sign:hover {
+      color: white !important; }
+  .navbar .dropdown-self {
+    color: #311967; }
+    .navbar .dropdown-self:hover {
+      color: #311967; }
+  .navbar .border-nav {
+    border: 1px solid #34ADAE;
+    border-radius: 20px; }
+
+.margin-nav {
+  padding-top: 70px; }
+
+#home_section {
+  margin-top: 70px;
+  background: url(../images/HeaderIllustration.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 428px; }
+  #home_section h1 {
+    font-size: 20px; }
+  #home_section .homeinner {
+    padding-top: 30px; }
+
+#Searchbox2 {
+  position: relative;
+  border-radius: 15px;
+  background: white; }
+  #Searchbox2 .search-log {
+    position: absolute;
+    top: 14px;
+    left: 16px; }
+  #Searchbox2 .search-bg2 {
+    width: 90%; }
+  #Searchbox2 .text {
+    color: #311967; }
+  #Searchbox2 input {
+    outline: none; }
+  #Searchbox2 input::placeholder {
+    color: #FCA70C; }
+  #Searchbox2 .height {
+    height: 45px; }
+
+#Search-box3 {
+  min-height: 100px;
+  border-radius: 15px;
+  background: white; }
+  #Search-box3 input {
+    outline: none; }
+  #Search-box3 .search-bg {
+    position: relative;
+    width: 100%;
+    border-radius: 12px; }
+  #Search-box3 .search-bg2 {
+    width: 86%; }
+  #Search-box3 .submit {
+    border-radius: 30px;
+    border: 2px solid #FCA70C;
+    color: #FCA70C; }
+  #Search-box3 .submit:hover {
+    color: white; }
+  #Search-box3 .text {
+    color: #311967; }
+  #Search-box3 input::placeholder {
+    color: #FCA70C; }
+  #Search-box3 .search-log {
+    position: absolute;
+    top: 10px;
+    left: 15px; }
+
+#Search-box {
+  min-height: 100px;
+  border-radius: 15px;
+  background: white; }
+  #Search-box input {
+    outline: none; }
+  #Search-box .search-bg {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    outline: none; }
+  #Search-box .search-bg2 {
+    width: 86%; }
+  #Search-box .submit {
+    border-radius: 30px;
+    border: 2px solid #FCA70C;
+    color: #FCA70C; }
+  #Search-box .submit:hover {
+    color: white; }
+  #Search-box .text {
+    color: #311967; }
+  #Search-box input::placeholder {
+    color: #FCA70C; }
+  #Search-box .search-log {
+    position: absolute;
+    top: 10px;
+    left: 15px; }
+
+#Profile-Categories .card .card-title {
+  color: #38d1c9;
+  font-size: 15px; }
+
+#Profile-Categories .card .card-btn {
+  font-size: 10px;
+  color: #fff;
+  border-radius: 15px; }
+
+#Categories .card .card-title {
+  color: #38d1c9;
+  font-size: 15px; }
+
+#Categories .card .card-btn {
+  font-size: 10px;
+  color: #fff;
+  border-radius: 15px; }
+
+#NewCategoryHeader {
+  direction: ltr; }
+  #NewCategoryHeader .card .card-title {
+    color: #38d1c9;
+    font-size: 15px; }
+  #NewCategoryHeader .card .card-btn {
+    font-size: 10px;
+    color: #fff;
+    border-radius: 15px; }
+
+#SuggestCourses {
+  direction: ltr; }
+  #SuggestCourses .card .card-title {
+    color: #38d1c9;
+    font-size: 15px; }
+  #SuggestCourses .card .card-btn {
+    font-size: 10px;
+    color: #fff;
+    border-radius: 15px; }
+
+#ApaHeader {
+  direction: ltr; }
+  #ApaHeader .card .card-title {
+    color: #38d1c9;
+    font-size: 15px; }
+  #ApaHeader .card .card-btn {
+    font-size: 10px;
+    color: #fff;
+    border-radius: 15px; }
+
+#CategoryHeader .row a {
+  color: #311967; }
+  #CategoryHeader .row a:hover {
+    text-decoration: none; }
+
+#CategoryHeader .row .category {
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 25px; }
+
+#Introduce {
+  background: url(../images/Group1406@2x.png);
+  min-height: 300px;
+  background-size: cover;
+  background-position: center; }
+  #Introduce h3 {
+    color: #34ADAE; }
+
+#Footer {
+  background: url(../images/Group1408@2x.png);
+  min-height: 490px;
+  background-size: auto;
+  background-position: center; }
+  #Footer input {
+    outline: none; }
+  #Footer .width80 {
+    width: 100%;
+    background: #F5F5F5; }
+  #Footer input::placeholder {
+    color: #34ADAE;
+    text-align: right; }
+  #Footer a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; }
+  #Footer .etemad {
+    border-radius: 30px;
+    width: 15%; }
+  #Footer .footer-text {
+    width: 70%; }
+  #Footer .width {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px; }
+  #Footer .email-box {
+    color: #34ADAE;
+    border-radius: 20px;
+    width: 100%;
+    background: #F5F5F5; }
+  #Footer .submit-email {
+    border-radius: 20px;
+    background: #34ADAE;
+    color: #F5F5F5; }
+    #Footer .submit-email .btn:focus, #Footer .submit-email .btn:active {
+      outline: none !important;
+      box-shadow: none !important; }
+
+.footer-copy {
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+  background: #34ADAE; }
+
+#carouselNewCategory {
+  position: relative; }
+  #carouselNewCategory .next {
+    position: absolute; }
+
+.set-width-left {
+  position: absolute;
+  top: 49%;
+  left: 0; }
+  .set-width-left img {
+    padding: 3px;
+    padding-left: 9.5px;
+    padding-right: 9.5px; }
+
+.set-width-right {
+  position: absolute;
+  top: 49%;
+  right: 0; }
+  .set-width-right img {
+    padding: 3px;
+    padding-left: 9.5px;
+    padding-right: 9.5px; }
+
+a:hover, a:visited, a:link {
+  text-decoration: none; }
+
+.dropdown-item {
+  text-align: right; }
+
+#RequestCourse .submit {
+  color: white;
+  background: #34ADAE;
+  width: 120px;
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center; }
+
+#RequestCourse input {
+  color: black;
+  outline: none;
+  border: 2px #f9f9f9 solid;
+  border-radius: 20px;
+  height: 45px; }
+
+#RequestCourse textarea {
+  color: black;
+  outline: none;
+  border: 2px #f9f9f9 solid;
+  border-radius: 20px; }
+
+#EditInformation input {
+  outline: none;
+  height: 45px;
+  border: 2px #f9f9f9 solid;
+  border-radius: 20px; }
+  #EditInformation input::placeholder {
+    color: #FCA70C;
+    opacity: .4; }
+
+#EditInformation .submit {
+  width: 120px;
+  border-radius: 50px;
+  height: 40px;
+  line-height: 20px; }
+
+#EditPassword input {
+  outline: none;
+  height: 45px;
+  border: 2px #f9f9f9 solid;
+  border-radius: 20px; }
+  #EditPassword input::placeholder {
+    color: #FCA70C;
+    opacity: .4; }
+
+#EditPassword .submit {
+  width: 120px;
+  border-radius: 50px;
+  height: 40px;
+  line-height: 20px; }
+
+#Contact .img {
+  width: 100%;
+  height: 100%; }
+
+#Contact .info {
+  border: 2px #f9f9f9 solid;
+  border-radius: 20px; }
+
+.viewMore[aria-expanded="false"]:before {
+  content: "نمایش دوره های بیشتر"; }
+
+.viewMore[aria-expanded="true"]:before {
+  content: "نمایش دوره های کمتر"; }
